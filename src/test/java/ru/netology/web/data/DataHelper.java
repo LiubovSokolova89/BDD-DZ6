@@ -51,7 +51,7 @@ public class DataHelper {
     }
 
     public static int generateInvalidAmount(int balance) {
-        return new Random().nextInt();
+        return new Random().nextInt(700000);
     }
 
 }
